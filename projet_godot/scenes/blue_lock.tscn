@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2unk7n15hiry"]
+
+[ext_resource type="Script" uid="uid://cmcjx8deaqyr" path="res://scripts/blue_lock.gd" id="1_bypb2"]
+[ext_resource type="Texture2D" uid="uid://c2yk3t5p7xabf" path="res://assets/sprites/lock_blue.png" id="2_4r4pd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_67ds4"]
+size = Vector2(64, 66)
+
+[node name="blue_lock" type="StaticBody2D"]
+script = ExtResource("1_bypb2")
+
+[node name="BlueLock" type="Sprite2D" parent="."]
+texture = ExtResource("2_4r4pd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_67ds4")

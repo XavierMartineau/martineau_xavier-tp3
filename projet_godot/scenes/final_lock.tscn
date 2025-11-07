@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bccrrjcnxdfj3"]
+
+[ext_resource type="Script" uid="uid://cuajie7a6qq34" path="res://scenes/final_lock.gd" id="1_lfacc"]
+[ext_resource type="Texture2D" uid="uid://o72khkjkbdgt" path="res://assets/sprites/block_spikes.png" id="1_rik83"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lfacc"]
+size = Vector2(65, 67)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_lfacc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 11)
+texture = ExtResource("1_rik83")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.5, 12.5)
+shape = SubResource("RectangleShape2D_lfacc")

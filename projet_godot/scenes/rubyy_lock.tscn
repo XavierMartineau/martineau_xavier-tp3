@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc3kda2bjeyug"]
+
+[ext_resource type="Texture2D" uid="uid://puvpakxqmtts" path="res://assets/sprites/block_red.png" id="1_ek62n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jvqb2"]
+size = Vector2(64, 64)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(9, 35)
+texture = ExtResource("1_ek62n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 35)
+shape = SubResource("RectangleShape2D_jvqb2")

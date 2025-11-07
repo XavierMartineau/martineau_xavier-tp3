@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0imblnd3un0b"]
+
+[ext_resource type="Texture2D" uid="uid://b4rnhjjhju8nf" path="res://assets/sprites/star.png" id="1_eurbg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n6gx0"]
+radius = 23.0
+height = 48.0
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 16)
+texture = ExtResource("1_eurbg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 17)
+shape = SubResource("CapsuleShape2D_n6gx0")

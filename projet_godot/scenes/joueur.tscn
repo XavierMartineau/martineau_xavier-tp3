@@ -1,0 +1,279 @@
+[gd_scene load_steps=62 format=3 uid="uid://dirydc1jhbrdb"]
+
+[ext_resource type="Script" uid="uid://c6f6th35eu1tn" path="res://scripts/joueur.gd" id="1_uj1k6"]
+[ext_resource type="Texture2D" uid="uid://dndwhvn12ju5" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_000.png" id="2_pbtrj"]
+[ext_resource type="AudioStream" uid="uid://dvyheh26hxljb" path="res://assets/audio/jump.wav" id="3_2y66e"]
+[ext_resource type="Texture2D" uid="uid://dhouo4srj54ne" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_001.png" id="3_qjtgr"]
+[ext_resource type="Texture2D" uid="uid://bemt3atrvkuu2" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_000.png" id="3_viqm4"]
+[ext_resource type="Texture2D" uid="uid://b8djdt5ifk3ol" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_001.png" id="4_apa1i"]
+[ext_resource type="Texture2D" uid="uid://c4xxkdberh1s5" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_002.png" id="4_sv1jf"]
+[ext_resource type="Texture2D" uid="uid://bi5eaab2bm8y8" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_002.png" id="5_q47n2"]
+[ext_resource type="Texture2D" uid="uid://t531ppjn8rqd" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_003.png" id="5_xbher"]
+[ext_resource type="Texture2D" uid="uid://iong80ymlli7" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_004.png" id="6_22mv6"]
+[ext_resource type="Texture2D" uid="uid://5e4trt66fwlf" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_003.png" id="6_ea7sc"]
+[ext_resource type="Texture2D" uid="uid://bb71t1ohdmdgi" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_005.png" id="7_7qcn6"]
+[ext_resource type="Texture2D" uid="uid://bh2vw3f2ogxco" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_004.png" id="7_ipdwj"]
+[ext_resource type="Texture2D" uid="uid://dncojso7rdrcw" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_006.png" id="8_3lgr4"]
+[ext_resource type="Texture2D" uid="uid://c3vic6jlsl6lk" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_005.png" id="8_imurj"]
+[ext_resource type="Texture2D" uid="uid://cr1on2ayydpq0" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_007.png" id="9_155bv"]
+[ext_resource type="Texture2D" uid="uid://d2q80j0j2qlgk" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_006.png" id="9_ufcj7"]
+[ext_resource type="Texture2D" uid="uid://cq0v5g1d1dujn" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_007.png" id="10_1opn5"]
+[ext_resource type="Texture2D" uid="uid://yacc6u4gk7l0" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_008.png" id="10_iwyf6"]
+[ext_resource type="Texture2D" uid="uid://ch7pgaiv3nw8m" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_008.png" id="11_d5plo"]
+[ext_resource type="Texture2D" uid="uid://c2f44dywebpl3" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_009.png" id="11_ugjtc"]
+[ext_resource type="Texture2D" uid="uid://c6qhkpmh2mgsf" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_009.png" id="12_hdrvk"]
+[ext_resource type="Texture2D" uid="uid://cv3t57p1t6nej" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_010.png" id="12_x6r65"]
+[ext_resource type="Texture2D" uid="uid://bi0v1ptdxf8ok" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_011.png" id="13_t2tvf"]
+[ext_resource type="Texture2D" uid="uid://geufbprn1c5i" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_010.png" id="13_vjrx1"]
+[ext_resource type="Texture2D" uid="uid://c7lfs8ie0i85o" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_011.png" id="14_qpsld"]
+[ext_resource type="Texture2D" uid="uid://bvvppjmsqce7w" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_012.png" id="14_vkqcs"]
+[ext_resource type="Texture2D" uid="uid://lw14o4y435cv" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_000.png" id="15_gwjl5"]
+[ext_resource type="Texture2D" uid="uid://bhs85vk2j8tng" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_013.png" id="15_k4jxo"]
+[ext_resource type="Texture2D" uid="uid://ce80grq0he8y5" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_001.png" id="16_j8gsg"]
+[ext_resource type="Texture2D" uid="uid://by4vbxwvyn1do" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Dying/Wraith_01_Dying_014.png" id="16_tx7df"]
+[ext_resource type="Texture2D" uid="uid://dyg4bp4hi1oit" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_002.png" id="17_0yx1u"]
+[ext_resource type="Texture2D" uid="uid://dnos5do0typ4j" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_003.png" id="18_qyjd1"]
+[ext_resource type="Texture2D" uid="uid://ots2budhty0o" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_004.png" id="19_je2d1"]
+[ext_resource type="Texture2D" uid="uid://deeypx3041k3r" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_005.png" id="20_qqa4o"]
+[ext_resource type="Texture2D" uid="uid://c8kppxy6oe8sj" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_006.png" id="21_rbtre"]
+[ext_resource type="Texture2D" uid="uid://d2ssycfmm0jqp" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_007.png" id="22_osas5"]
+[ext_resource type="Texture2D" uid="uid://tu4f7atmk6t1" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_008.png" id="23_xdn4m"]
+[ext_resource type="Texture2D" uid="uid://c82u1dg7k1kbj" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_009.png" id="24_38sxg"]
+[ext_resource type="Texture2D" uid="uid://b7rs24ye2rh33" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_010.png" id="25_3cbyy"]
+[ext_resource type="Texture2D" uid="uid://c2ri7dim6nu7x" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_011.png" id="26_ht11b"]
+[ext_resource type="Texture2D" uid="uid://cmuiugbauncqo" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_012.png" id="27_y6yf3"]
+[ext_resource type="Texture2D" uid="uid://d23jda6hnro08" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_013.png" id="28_r0l8x"]
+[ext_resource type="Texture2D" uid="uid://bien8nf005e2g" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_014.png" id="29_bbfnf"]
+[ext_resource type="Texture2D" uid="uid://ccs2y77465yco" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_000.png" id="29_qiwd6"]
+[ext_resource type="Texture2D" uid="uid://2kqutxkb6xqj" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_001.png" id="30_bolju"]
+[ext_resource type="Texture2D" uid="uid://u8oic0tq4v5e" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_015.png" id="30_t71nr"]
+[ext_resource type="Texture2D" uid="uid://dq43pc1bejf7v" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_016.png" id="31_y57is"]
+[ext_resource type="Texture2D" uid="uid://opcef1ijb0qx" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_002.png" id="31_ylua8"]
+[ext_resource type="Texture2D" uid="uid://dil0gu2hdssvk" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_003.png" id="32_ei1gh"]
+[ext_resource type="Texture2D" uid="uid://dralkns6e3kxu" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Casting Spells/Wraith_01_Casting Spells_017.png" id="32_yv6ha"]
+[ext_resource type="Texture2D" uid="uid://cyfymxr6r7im1" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_004.png" id="33_8pfe2"]
+[ext_resource type="Texture2D" uid="uid://c63xhdjgqy7gk" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_005.png" id="34_mxem0"]
+[ext_resource type="Texture2D" uid="uid://be00ncg4dgvbu" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_006.png" id="35_m1rwt"]
+[ext_resource type="Texture2D" uid="uid://0wdvskfhvu5u" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_007.png" id="36_btw7o"]
+[ext_resource type="Texture2D" uid="uid://cr738l34ey3x5" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_008.png" id="37_lcd8e"]
+[ext_resource type="Texture2D" uid="uid://3aeenkjlxhjx" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_009.png" id="38_jyxhl"]
+[ext_resource type="Texture2D" uid="uid://bu0r25tnxd523" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_010.png" id="39_maqgb"]
+[ext_resource type="Texture2D" uid="uid://djsj4etenossr" path="res://assets/spritesheets/character/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_011.png" id="40_mr1bx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q5har"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_pbtrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qjtgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sv1jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xbher")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_22mv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7qcn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3lgr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_155bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_iwyf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ugjtc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_x6r65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_t2tvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vkqcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_k4jxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_tx7df")
+}],
+"loop": true,
+"name": &"death",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_viqm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_apa1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_q47n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ea7sc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ipdwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_imurj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ufcj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_1opn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_d5plo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hdrvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vjrx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qpsld")
+}],
+"loop": true,
+"name": &"promener",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_qiwd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_bolju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ylua8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ei1gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8pfe2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_mxem0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_m1rwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_btw7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_lcd8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_jyxhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_maqgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mr1bx")
+}],
+"loop": true,
+"name": &"repos",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_gwjl5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_j8gsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0yx1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qyjd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_je2d1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_qqa4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rbtre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_osas5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xdn4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_38sxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_3cbyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ht11b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_y6yf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_r0l8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_bbfnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_t71nr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_y57is")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_yv6ha")
+}],
+"loop": true,
+"name": &"sauter",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uj1k6"]
+size = Vector2(50, 63)
+
+[node name="Joueur" type="CharacterBody2D"]
+position = Vector2(12, 11)
+script = ExtResource("1_uj1k6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4, -35)
+scale = Vector2(0.22, 0.22)
+sprite_frames = SubResource("SpriteFrames_q5har")
+animation = &"promener"
+frame_progress = 0.643784
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4, -40.5)
+shape = SubResource("RectangleShape2D_uj1k6")
+
+[node name="AudioStreamPlayer2Djump" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_2y66e")
+
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
+position = Vector2(-1, -48)

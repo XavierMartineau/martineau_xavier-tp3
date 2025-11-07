@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddiak5hm0e1ea"]
+
+[ext_resource type="Script" uid="uid://cvtpj80tgalwy" path="res://scripts/clee_rouge.gd" id="1_xmy45"]
+[ext_resource type="Texture2D" uid="uid://c5ukwgnb6bgow" path="res://assets/sprites/key_red.png" id="2_03rq8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bewe7"]
+radius = 27.0
+height = 54.0
+
+[node name="clee_rouge" type="Area2D"]
+script = ExtResource("1_xmy45")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_03rq8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_bewe7")
