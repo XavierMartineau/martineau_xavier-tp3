@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bi604tr7e4dqb"
+path="res://.godot/imported/Troubadeck 17 No Time for Turnips.ogg-043fa2cbaa4760a70371c66f56b517ba.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 17 No Time for Turnips.ogg"
+dest_files=["res://.godot/imported/Troubadeck 17 No Time for Turnips.ogg-043fa2cbaa4760a70371c66f56b517ba.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

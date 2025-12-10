@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://6xlcotj3veqf"
+path="res://.godot/imported/Troubadeck 24 Royal Blue.ogg-c8656cfc088fbd12f869896955cf6a5d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 24 Royal Blue.ogg"
+dest_files=["res://.godot/imported/Troubadeck 24 Royal Blue.ogg-c8656cfc088fbd12f869896955cf6a5d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

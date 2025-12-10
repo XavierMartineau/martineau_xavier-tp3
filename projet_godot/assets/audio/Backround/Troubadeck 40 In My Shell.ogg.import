@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dsnjiibi6kvvt"
+path="res://.godot/imported/Troubadeck 40 In My Shell.ogg-2cd6bdbdb8ac126b9950f586ef40675f.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 40 In My Shell.ogg"
+dest_files=["res://.godot/imported/Troubadeck 40 In My Shell.ogg-2cd6bdbdb8ac126b9950f586ef40675f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

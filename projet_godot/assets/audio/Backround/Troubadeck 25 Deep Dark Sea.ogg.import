@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cymtxi0bqdo7w"
+path="res://.godot/imported/Troubadeck 25 Deep Dark Sea.ogg-42a610a27e11883b7d1d69a1f4f15a7e.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 25 Deep Dark Sea.ogg"
+dest_files=["res://.godot/imported/Troubadeck 25 Deep Dark Sea.ogg-42a610a27e11883b7d1d69a1f4f15a7e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

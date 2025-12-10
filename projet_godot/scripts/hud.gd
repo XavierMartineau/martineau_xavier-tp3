@@ -1,19 +1,20 @@
 extends CanvasLayer
-class_name HUD  # permet de l'identifier et de l'instancier facilement
+class_name HUD # permet de l'identifier et de l'instancier facilement
 
-# Labels
-@onready var label_stars = $HBoxContainer/label_stars
-@onready var label_ruby = $HBoxContainer/label_ruby
+# Labels (Utilisation du type Label pour la clarté)
+# ATTENTION : Assurez-vous que les noms des nœuds dans l'HBoxContainer sont bien 'label_stars' et 'label_coin'
+@onready var label_stars: Label = $HBoxContainer/label_stars 
+@onready var label_coin: Label = $HBoxContainer/label_coin
 
 # Compteurs
-var nb_stars: int = 0  # étoiles
-var nb_ruby: int = 0   # rubis
+var nb_stars: int = 0 # étoiles
+var nb_coin: int = 0 # coin
 
 func _ready() -> void:
 	# Initialise l'affichage au démarrage
 	label_stars.text = str(nb_stars)
-	label_ruby.text = str(nb_ruby)
-
+	label_coin.text = str(nb_coin)
+	
 # Méthode pour ajouter une étoile
 func ajouter_star() -> void:
 	nb_stars += 1
@@ -21,7 +22,8 @@ func ajouter_star() -> void:
 	print("HUD : étoiles =", nb_stars)
 
 # Méthode pour ajouter un rubis
-func ajouter_ruby() -> void:
-	nb_ruby += 1
-	label_ruby.text = str(nb_ruby)
-	print("HUD : rubis =", nb_ruby)
+func ajouter_coin() -> void:
+	# CORRECTION : Ces lignes sont correctement indentées à l'intérieur du bloc de fonction
+	nb_coin += 1
+	label_coin.text = str(nb_coin)
+	print("HUD : Coin =", nb_coin)

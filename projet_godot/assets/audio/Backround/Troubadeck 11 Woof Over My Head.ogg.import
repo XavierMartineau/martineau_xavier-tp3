@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://du7muenjchi6m"
+path="res://.godot/imported/Troubadeck 11 Woof Over My Head.ogg-b9e6028b41e30d4d227276e3461c5b09.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 11 Woof Over My Head.ogg"
+dest_files=["res://.godot/imported/Troubadeck 11 Woof Over My Head.ogg-b9e6028b41e30d4d227276e3461c5b09.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

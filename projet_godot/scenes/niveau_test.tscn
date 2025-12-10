@@ -81,7 +81,7 @@ position = Vector2(229, -126)
 position = Vector2(-582, -318)
 
 [node name="Joueur" parent="." instance=ExtResource("2_ktk5d")]
-position = Vector2(19, 79)
+position = Vector2(24, 72)
 metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="Joueur"]

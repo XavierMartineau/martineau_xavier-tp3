@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bop8c4360013r"
+path="res://.godot/imported/Troubadeck 26 Sorcerer's Spell.ogg-f6e114f5187b9b9cdda76e86e37d170e.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Backround/Troubadeck 26 Sorcerer's Spell.ogg"
+dest_files=["res://.godot/imported/Troubadeck 26 Sorcerer's Spell.ogg-f6e114f5187b9b9cdda76e86e37d170e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
